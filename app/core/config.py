@@ -10,7 +10,7 @@ class Settings(BaseModel):
 
     # Crear las propiedades de la clase
     database_url: str = os.getenv("DATABASE_URL", "postgresql+psycopg2://postgres:1234@localhost:5432/rues")
-    api_key: str = os.getenv("DATABASE_URL", "user-api-key")
+    api_key: str = os.getenv("API_KEY", "d76da2ec-e895-5b98-b5fb-2466acf1848d")
     cors_origin: List[str] = [o.strip() for o in os.getenv("CORS_ORIGIN", "*").split(";")]
 
     # cors

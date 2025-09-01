@@ -11,7 +11,7 @@ class StatusEnum(str, enum.Enum):
 
 
 class Company(Base):
-    __table__name = "proceso_rues_test"
+    __tablename__ = "proceso_rues_test"
     __table_args__ = (
         UniqueConstraint("nit", name="uq_process_rues_nit"),
     )
