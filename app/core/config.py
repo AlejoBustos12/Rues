@@ -1,0 +1,1 @@
+#Las configuraciones y cargas de datos del .env ademas de las variables globales
