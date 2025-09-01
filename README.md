@@ -98,6 +98,14 @@ Accede a la documentación interactiva en:
 | `alembic revision --autogenerate -m "mensaje"` | Crear una nueva migración |
 | `alembic upgrade head` | Aplicar migraciones pendientes |
 | `alembic downgrade -1` | Revertir la última migración |
+---
+
+## 🧪 **Pruebas**
+```bash
+pytest --maxfail=1 --disable-warnings -q
+```
+
+---
 
 
 ## 🛠 **Stack Tecnológico**
