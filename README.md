@@ -26,6 +26,9 @@ app/
 ├── services/
 │   └── crud.py           # Metodos que aplican la logica de negocio
 │
+├── test/
+│   └── test_api.py           # Pruebas unitarias
+│
 ├── main.py               # Punto de entrada de la aplicación
 │
 ├── .env                  # Variables de entorno
